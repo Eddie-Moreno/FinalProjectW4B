@@ -1,0 +1,258 @@
+body{
+    margin: 0 auto;
+    padding: 25px;
+}
+nav{
+    width: 100%;
+    height: 125px;
+    background-color: gold;
+    border-radius: 25px;
+    position: sticky;
+    top: 0;
+    z-index: 8;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+}
+.logo img{
+    height: 118px;
+    width: 200px;
+    margin: 3px;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    border-radius: 25px;
+}
+.topname a:link{
+    text-decoration: none;
+}
+.topname a:visited{
+    text-decoration: none;
+}
+.topname a:active{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+    text-align: right;
+    font-size: x-large;
+}
+li{
+    display: inline;
+    margin: 15px 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+li a {
+    color: brown;
+}
+li a:link {
+    text-decoration: none;
+}
+li a:visited {
+    text-decoration: none;
+}
+li a:active {
+    text-decoration: none;
+    background: purple;
+    color: white;
+}
+li a:hover{
+    text-decoration: none;
+    color: beige;
+}
+section {
+    margin: 100px;
+    box-shadow: 5px 10px gold;
+    border-style: outset;
+    border-color: black;
+    background-color: gold;
+}
+.simple{
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    color: brown;
+    font-style: italic;
+    font-size: x-large;
+    text-align: center;
+    display: block;
+    margin-block-start: 8em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+h1 {
+    margin: 3px;
+    height: 3px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:brown;
+    font-size: xx-large;
+    text-shadow: 2px 1px white;
+}
+h2{
+    margin: 3px;
+    height: 3px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    font-size: xx-large;
+    margin: 60px;
+}
+.button {
+    background-color: crimson;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button {
+    border-radius: 12px;
+}
+.drink1{
+    display: block;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    color: brown;
+    padding: 25px;
+}
+.drink2{
+    display: block;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    color: brown;
+    padding: 25px;
+}
+.drink3{
+    display: block;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    color: brown;
+    padding: 25px;
+}
+.drink4{
+    display: block;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    color: brown;
+    padding: 25px;
+}
+.columns-section{
+    display: flex;
+}
+.row{
+    width: 100%;
+}
+.column{
+    height: 350px;
+    width: 275px;
+    margin: 10px 10px;
+    background-color:white;
+    border: 3px solid #000;
+    float: left;
+    top: 100%;
+    left: 20%;
+    position: relative;
+    transform: translate(-50%, -50%);
+}
+footer{
+    background-color:gold;
+    height:250px;
+    width: 98%;
+    border-radius: 25px;
+    padding: 15px;
+    text-align:center;
+    /* position: relative;
+    top: 100%; */
+}
+.footer-link li{
+    margin: auto;
+}
+/* .footer-link{
+    padding: 0;
+    margin: auto;
+    align-self: flex-end;
+} */
+.footer-right{
+    display: flex;
+    flex-direction: column;
+}
+.footer-top{
+    display: flex;
+    justify-content: space-around;
+}
+.footer-socialmedia{
+    font-size: medium;
+}
+.copyright{
+    text-align: center;
+}
+.footer-cr{
+    font-size: small;
+
+}
+.BorderColorChangeElement {
+    animation: BorderColorChange 1s ease-out 0s infinite alternate none running;
+}
+@keyframes BorderColorChange{
+    0%  { border: 10px solid #d48114;}
+    100%  { border: 10px solid #000000;}
+}
+@keyframes rotateAnim {
+  0% { transform: rotate(deg);}
+  100% { transform:rotate(360deg);}
+}
+@keyframes scaler {
+0% {
+  transform: scale(1);
+}
+100% {    transform: scale(1.5);
+}
+}
+.imgAnim644 {
+animation: rotateAnim 10s linear 0s infinite forwards running;
+}
+.btnAnim644 {
+animation: scaler 1s linear 0s infinite alternate none running;
+}
+.btnAnim644:hover{
+animation-play-state: paused;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+  
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-snapchat-ghost {
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
